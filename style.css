@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.my_btn{
+    text-decoration: none;
+    background: red;
+    padding: 5px;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    border: 1px solid green;
+    font-weight: bold;
+}
+
+/* header Section CSS */
+.header_section{
+    background: #141719;
+    padding: 15px 0;
+}
+.mid_content{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo_area img{
+    width: 100px;
+}
+.menu_area ul{
+    display: flex;
+}
+.menu_area ul li {
+	list-style: none;
+	padding: 7px 12px;
+}
+.menu_area ul li a {
+	display: block;
+	color: #ddd;
+	text-decoration: none;
+	padding: 12px;
+	font-size: 17px;
+	border-bottom: 2px solid #888;
+}
+.menu_area ul li:last-child{
+    padding: 7px 0;
+}
+
+/* Body Section CSS */
+.body_section{
+    display: flex;
+    margin-top: 70px;
+}
+.left_area {
+	width: 70%;
+	margin: 50px auto;
+}
+
+/* First Section CSS */
+.first_section{
+    display: flex;
+    justify-content: space-between;
+}
+.first_div{
+    width: 31%;
+    height: 200px;
+    border: 2px solid green;
+    display: flex;
+    align-items: flex-start;
+}
+.first_div a {
+	border: none;
+    padding: 10px 20px;
+}
+.first_02{
+    justify-content: center;
+    align-items: center;
+}
+.first_03{
+    justify-content: end;
+    align-items: flex-end;
+}
+
+/* Second Section CSS */
+.second_section{
+    display: flex;
+    justify-content: space-between;
+}
+.second_01 {
+	width: 26%;
+	height: 155px;
+	margin: 30px 0;
+	border: 2px solid green;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+	align-items: flex-start;
+}
+.second_grow {
+    display: flex;
+    align-items: flex-start;
+	width: 42.5%;
+}
+
+/* Third Section CSS */
+.third_section{
+    display: flex;
+    justify-content: space-between;
+}
+.third_01 {
+	width: 31.5%;
+	height: 150px;
+	border: 2px solid green;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.thirdSection_01 {
+	display: flex;
+	justify-content: space-around;
+}
+.thirdSection_02 {
+	display: flex;
+	flex-wrap: wrap;
+}
+.thirdSection_03 {
+	padding: 0 7px;
+}
+.thirdSection_03 a {
+	padding: 8px 3px;
+}
+.div_02{
+    display: flex;
+    justify-content: center;
+}
+.div_03{
+    display: flex;
+    justify-content: end;
+}
+
+/* Right Area CSS */
+.right_area{
+    width: 22%;
+    background: #d2d2d2;
+    padding: 25px;
+    border-left: 4px solid red;
+}
+.right_area img {
+	max-width: 100%;
+	margin-top: 25px;
+}
+.right_area p {
+	text-align: justify;
+	font-size: 18px;
+	color: #333;
+}
+
+/* Footer Section CSS */
+.fooer_section{
+    padding: 25px 0;
+    background: #141719;
+}
+.fooer_section ul{
+    display: flex;
+    justify-content: center;
+}
+.fooer_section ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+.fooer_section ul li a {
+	text-decoration: none;
+	color: #fff;
+	border-bottom: 2px solid #888;
+	padding: 0 7px;
+	padding-bottom: 7px;
+}
+
+/* Footer Bottom CSS */
+.footer_bottom{
+    background: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer_bottom p{
+    font-weight: bold;
+}
